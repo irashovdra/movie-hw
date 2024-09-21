@@ -1,0 +1,2 @@
+fetch("http://localhost:3000/movies",{method:"GET",headers:{"Content-Type":"application/json"}}).then(o=>o.json()).then(o=>{displayMovies(o.movies)}).catch(o=>{console.error("Error",o)}),function(o){fetch("http://localhost:3000/movies",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(o)}).then(o=>o.json()).then(o=>{console.log(o)}).catch(o=>{console.error("Error",o)})}({id:5,title:"Inception",year:2010,photo:"https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"});
+//# sourceMappingURL=index.ee3071e5.js.map
