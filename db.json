@@ -1,0 +1,46 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Titanic",
+      "year": 1997,
+      "photo": "https://m.media-amazon.com/images/I/81CVRAQi46L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Bad Boys",
+      "year": 1995,
+      "photo": "https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/badboys_onesheet_1400x2100_0.jpg?itok=GGzVOfd0"
+    },
+    {
+      "id": 3,
+      "title": "Jumanji",
+      "year": 2019,
+      "photo": "https://upload.wikimedia.org/wikipedia/en/1/12/Jumanji_-The_Next_Level_film_poster.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Fight Club",
+      "year": 1999,
+      "photo": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "year": 2010,
+      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "year": 2010,
+      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Inception",
+      "year": 2010,
+      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+    }
+  ]
+}
