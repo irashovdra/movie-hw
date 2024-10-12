@@ -3,11 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Movies</title>
   </head>
-  <body>
-    <h1>Movies</h1>
-    <ul class="movies-list"></ul>
-    <script type="module" src="index.js"></script>
+  <body class="body">
+    <h2>Add Movie</h2>
+    <form class="form">
+      <input placeholder="Enter id" name="id" class="id" type="text" />
+      <input placeholder="Enter title" name="title" class="title" type="text" />
+      <input placeholder="Enter year" name="year" class="year" type="text" />
+      <input placeholder="Enter photo" name="photo" class="photo" type="text" />
+      <button type="submit" class="submit-btn">Зберегти</button>
+    </form>
+    <h2>Update Movie</h2>
+    <form class="update-form">
+      <input placeholder="Enter id" name="id" class="updated-id" type="text" />
+      <input
+        placeholder="Enter title"
+        name="title"
+        class="updated-title"
+        type="text"
+      />
+      <input
+        placeholder="Enter year"
+        name="year"
+        class="updated-year"
+        type="text"
+      />
+      <input
+        placeholder="Enter photo"
+        name="photo"
+        class="updated-photo"
+        type="text"
+      />
+      <button type="submit" class="submit-btn">Зберегти</button>
+    </form>
+    <ul class="movies"></ul>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

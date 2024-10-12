@@ -28,55 +28,25 @@
       "id": "5",
       "title": "Inception",
       "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+      "photo": "https://www.johnpaulcaponigro.com/blog/wp-content/uploads/2024/03/Inception.jpg"
     },
     {
-      "id": "5",
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+      "id": "6",
+      "title": "The Wizard of Oz",
+      "year": 1939,
+      "photo": "https://m.media-amazon.com/images/I/91v9aSdAtsL._AC_UF1000,1000_QL80_.jpg"
     },
     {
-      "id": "5",
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+      "id": "7",
+      "title": "The Fellowship of the Rings",
+      "year": 2001,
+      "photo": "https://images.moviesanywhere.com/198e228b071c60f5ad57e5f62fe60029/ff22cad6-2218-414d-b853-3f95d76905c7.jpg"
     },
     {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Inception",
-      "year": 2010,
-      "photo": "https://m.media-amazon.com/images/I/51-c7mlLOLL._AC_.jpg"
+      "id": "8",
+      "title": "Ocean's 8",
+      "year": 2018,
+      "photo": "https://m.media-amazon.com/images/I/91JjDx3YgOL._AC_UF894,1000_QL80_.jpg"
     }
   ]
 }

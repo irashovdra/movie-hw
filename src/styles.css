@@ -1,0 +1,9 @@
+.movie__photo {
+  width: 100px;
+}
+
+.movies {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}

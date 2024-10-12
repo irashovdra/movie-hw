@@ -1,4 +1,9 @@
-import "./js/getMovies";
-import "./js/addMovie";
+import "./js/api/addMovie";
+import "./js/api/deleteMovie";
+import "./js/api/getMovie";
+import "./js/api/updateMovie";
+import "./js/layout/createMovieCard";
+import "./js/layout/createMovieList";
+import "./js/layout/form";
+import "./js/layout/updateForm";
 import "./js/app";
-import "./js/createMovieCard";

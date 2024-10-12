@@ -1,35 +1,33 @@
-import { getMovies } from "./api/getMovies";
-import { addMovie } from "./api/addMovie";
-
-const moviesList = document.querySelector(".movies-list");
-
-const displayMovies = (movies) => {
-  const movieHTML = createMovieCard(movies);
-  moviesList.innerHTML = movieHTML;
-};
+import { deleteMovie } from "./api/deleteMovie";
+import { getMovies } from "./api/getMovie";
+import { createMoviesList } from "./layout/createMovieList";
+import { getDataFromAddModal } from "./layout/form";
+import { getDataFromUpdateForm } from "./layout/updateForm";
+const moviesList = document.querySelector(".movies");
+const form = document.querySelector(".form");
+const updateForm = document.querySelector(".update-form");
 
 getMovies()
-  .then((response) => response.json())
+  .then((response) => {
+    return response.json();
+  })
   .then((data) => {
-    displayMovies(data.movies);
+    const movie = createMoviesList(data);
+    moviesList.insertAdjacentHTML("beforeend", movie);
+
+    const deleteBtn = document.querySelector(".delete__btn");
+    deleteBtn.addEventListener("click", (event) => {
+      const id = event.target.id;
+      console.log(id);
+      deleteProduct(id)
+        .then(() => console.log("Movie deleted"))
+        .catch((error) => console.log("Error:", error));
+    });
   })
   .catch((error) => {
     console.error("Error", error);
   });
 
-const newMovie = {
-  id: "6",
-  title: "The Matrix",
-  year: 1999,
-  photo: "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
-};
+form.addEventListener("submit", getDataFromAddModal);
 
-addMovie(newMovie)
-  .then(() => getMovies())
-  .then((response) => response.json())
-  .then((data) => {
-    displayMovies(data.movies);
-  })
-  .catch((error) => {
-    console.error("Error adding movie", error);
-  });
+updateForm.addEventListener("submit", getDataFromUpdateForm);
